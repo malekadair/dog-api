@@ -1,0 +1,15 @@
+
+
+.dogPic {
+    max-width: 250px;
+    margin: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.dogPicBreed {
+    max-width: 350px;
+    margin: 10px;
+}

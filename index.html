@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dog API Example</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dog API - Displaying random doggos</h1>
+
+        <form class="js-form">
+            <label for="numDogs">How many dogs do you want to display?</label>
+            <input type="text" name="numDogs" id="numDogs" required min="1" max="50" value="3">
+            <input type="submit" value="Display Doggo(s)!">
+        </form>
+        <form class="js-form-breed">
+            <label for="dogBreed">Which breed of dog would you like to display?</label>
+            <input type="text" name="dogBreed" id="dogBreed" required placeholder="e.g. Maltese">
+            <input type="submit" value="Display Specific Doggo!">
+        </form>
+        <h2 class="hidden">You get a dog!</h2>
+        <section class="results hidden">
+            
+        </section>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
